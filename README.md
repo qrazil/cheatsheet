@@ -57,6 +57,14 @@ zO: Open all folds under the cursor recursively (opens nested folds too).
 zj: Move cursor to the next fold.
 zk: Move cursor to the previous fold.
 
+SELECTION
+v: char selection
+V: line selection
+w (word): Moves the cursor to the beginning of the next word, extending the selection.
+e (end): Moves the cursor to the end of the current/next word, extending the selection.
+b (back): Moves the cursor to the beginning of the previous word, extending the selection backward.
+ge (go end): Moves the cursor to the end of the previous word, extending the
+
 SUBSTITUTION
 :s/foo/bar/: replace foo with bar on CURRENT LINE FIRST OCCURENCE
 :s/foo/bar/g: replace ALL foo with bar on CURRENT LINE
