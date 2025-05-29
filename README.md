@@ -55,4 +55,13 @@ zC: Close all folds under the cursor recursively (closes nested folds too).
 zO: Open all folds under the cursor recursively (opens nested folds too).
 zj: Move cursor to the next fold.
 zk: Move cursor to the previous fold.
+
+SUBSTITUTION
+:s/foo/bar/: replace foo with bar on CURRENT LINE FIRST OCCURENCE
+:s/foo/bar/g: replace ALL foo with bar on CURRENT LINE
+:%s/foo/bar/g: replace ALL foo with bar in FILE
+:%s/foo/bar/gic: replace ALL foo with bar in FILE while asking for CONFIRMATION
+
+
+
 ```
