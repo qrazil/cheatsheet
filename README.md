@@ -36,3 +36,23 @@ DELETING BRANCHES
 git push -d <remote_name> <branchname>   # Delete remote
 git branch -d <branchname>               # Delete local
 ```
+VIM COMMANDS
+```
+GENERAL
+gg: Go to First Line
+G: Go to Last Line
+y: copy selected | yw for word
+"+y: for copy to clipboard
+p: paste selected
+ggVG: select entire file
+*/#: find word in file (* forward/# backward)
+
+FOLDING
+za: Toggle a fold at the cursor (open if closed, close if open).
+zc: Close a fold at the cursor.
+zo: Open a fold at the cursor.
+zC: Close all folds under the cursor recursively (closes nested folds too).
+zO: Open all folds under the cursor recursively (opens nested folds too).
+zj: Move cursor to the next fold.
+zk: Move cursor to the previous fold.
+```
