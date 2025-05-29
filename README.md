@@ -46,6 +46,7 @@ y: copy selected | yw for word | yy for current line
 p: paste selected
 ggVG: select entire file
 */#: find word in file (* forward/# backward)
+d$: delete till end of line from cursor
 
 FOLDING
 za: Toggle a fold at the cursor (open if closed, close if open).
