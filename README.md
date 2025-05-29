@@ -62,6 +62,10 @@ SUBSTITUTION
 :%s/foo/bar/g: replace ALL foo with bar in FILE
 :%s/foo/bar/gic: replace ALL foo with bar in FILE while asking for CONFIRMATION
 
+g (global): Replace all occurrences of the pattern on each line. If omitted, only the first occurrence on each line is replaced. 
+c (confirm): Vim will prompt you for confirmation before each replacement. You'll get options like y (yes), n (no), a (all remaining), q (quit), l (last and quit). 
+i (ignorecase): Perform a case-insensitive search for the pattern. 
+I (matchcase): Perform a case-sensitive search. This overrides ignorecase if it's set globally.
 
 
 ```
