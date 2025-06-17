@@ -36,6 +36,24 @@ DELETING BRANCHES
 git push -d <remote_name> <branchname>   # Delete remote
 git branch -d <branchname>               # Delete local
 ```
+GIT RESET LOCAL
+```
+To revert changes made to your working copy, do this:
+git restore .
+
+To revert changes made to the index (i.e., that you have added), do this. Warning this will reset all of your unpushed commits to master!:
+git reset
+
+To revert a change that you have committed:
+git revert <commit 1> <commit 2>
+
+To remove untracked files (e.g., new files, generated files):
+git clean -f
+
+Or untracked directories (e.g., new or automatically generated directories):
+git clean -fd
+```
+
 VIM COMMANDS
 ```
 GENERAL
