@@ -93,6 +93,7 @@ p: paste selected
 ggVG: select entire file
 */#: find word in file (* forward/# backward)
 d$: delete till end of line from cursor
+:e filename : open a new file and edit it
 
 FOLDING
 za: Toggle a fold at the cursor (open if closed, close if open).
