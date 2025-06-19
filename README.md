@@ -89,6 +89,7 @@ gg: Go to First Line
 G: Go to Last Line
 y: copy selected | yw for word | yy for current line
 "+y: for copy to clipboard
+d: cut selected | dd cut line
 p: paste selected
 ggVG: select entire file
 */#: find word in file (* forward/# backward)
