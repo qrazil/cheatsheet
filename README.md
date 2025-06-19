@@ -95,6 +95,21 @@ ggVG: select entire file
 d$: delete till end of line from cursor
 :e filename : open a new file and edit it
 
+MOVEMENT
+ctrl + b to move a page screen back or “up”
+ctrl + f to move a page screen front or “down”
+ctrl + u to move a ½ page screen up
+ctrl + d to move a ½ page screen down
+j to move 1 line down
+k to move to move 1 line up
+2j to move 2 lines down
+2k to move 2 lines up
+ctrl + y to move the screen up one line
+ctrl + e to move the screen down one line
+z + z to move the current line I’m on to the center of the screen
+z + t to move the current line I’m on to the top of the screen
+z + b to move the current line I’m on to the bottom of the screen
+
 FOLDING
 za: Toggle a fold at the cursor (open if closed, close if open).
 zc: Close a fold at the cursor.
