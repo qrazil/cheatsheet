@@ -1,10 +1,7 @@
+# VIM COMMANDS
 
-# cheatsheet
-
-
-VIM COMMANDS
-```
 GENERAL
+```
 gg: Go to First Line
 G: Go to Last Line
 y: copy selected | yw for word | yy for current line
